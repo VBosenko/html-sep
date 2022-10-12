@@ -1,0 +1,9 @@
+h1, p, ul, a {
+    background-color: powderblue;
+    color: coral;
+}
+img {
+    background-color: initial;
+    min-height: 200px;
+    max-height: 400px;
+}
