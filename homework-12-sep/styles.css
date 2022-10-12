@@ -3,7 +3,6 @@ h1, p, ul, a {
     color: coral;
 }
 img {
-    background-color: initial;
     min-height: 200px;
     max-height: 400px;
 }
