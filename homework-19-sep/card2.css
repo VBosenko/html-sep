@@ -1,0 +1,18 @@
+* {
+    --main-bg-color: #c5d0da;
+    --main-br-color: #052c3f;
+    --main-color: #6862e2;
+}
+.first {
+    height: 200px;
+    background: var(--main-bg-color);
+}
+.second {
+    height: 500px;
+    background: var(--main-br-color);
+
+}
+.third {
+    height: 200px;
+    background: var(--main-bg-color);
+}
