@@ -3,16 +3,60 @@
     --main-br-color: #052c3f;
     --main-color: #6862e2;
 }
+
 .first {
     height: 200px;
     background: var(--main-bg-color);
 }
+
 .second {
     height: 500px;
     background: var(--main-br-color);
-
 }
+
 .third {
+    display: flex;
+    justify-content: space-evenly;
     height: 200px;
     background: var(--main-bg-color);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+.flexMex {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    z-index: 1;
+}
+
+.box {
+    height: 100px;
+    width: 300px;
+    background: var(--main-br-color);
+    margin-left: 200px;
+}
+
+.kostilIMG {
+    margin-left: 400px;
+}
+
+.filler {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.purple {
+    position: relative;
+    margin-top: -100px;
+    z-index: 1;
+    height: 200px;
+    width: 200px;
+    background: var(--main-color);
+}
+img {
+    height: 100px;
 }
